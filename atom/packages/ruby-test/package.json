@@ -1,0 +1,137 @@
+{
+  "name": "ruby-test",
+  "author": {
+    "name": "Moxley Stratton"
+  },
+  "homepage": "https://github.com/moxley/atom-ruby-test",
+  "bugs": {
+    "url": "https://github.com/moxley/atom-ruby-test/issues"
+  },
+  "main": "./lib/ruby-test",
+  "version": "0.9.1",
+  "description": "Run Ruby tests, Rspec examples, and Cucumber features from Atom",
+  "activationEvents": [
+    "ruby-test:toggle",
+    "ruby-test:test-file",
+    "ruby-test:test-single",
+    "ruby-test:test-previous",
+    "ruby-test:test-all"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moxley/atom-ruby-test"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+    "underscore-plus": "^1.0.6",
+    "ansi-to-html": "^0.2"
+  },
+  "keywords": [
+    "ruby",
+    "test",
+    "rspec",
+    "spec",
+    "cucumber"
+  ],
+  "readme": "# ruby-test package\n\nRun Ruby tests, Rspec examples, and Cucumber features from Atom,\nquickly and easily.\n\n![Running tests is quick and easy](http://cl.ly/image/300n2g101z0y/ruby-test6.gif)\n\n## Install\n\nIn Atom's Settings, go to Packages, search for \"Ruby Test\".\nClick the `Install` button.\n\n## Configure\n\nIMPORTANT: Before configuring ruby-test, toggle to the test panel to activate\nthe package: `cmd-ctrl-x`.\n\n![Ruby Test Settings view](http://cl.ly/image/1l3H0g1C1J3g/ruby-test-settings.png)\n\n**Shell**: executable or path to shell (e.g. `fish`, `/bin/zsh`)\n\n## Run\n\nOpen the test file you want to run, then issue one of the following:\n\n* `cmd-ctrl-y` - Run all the test files\n* `cmd-ctrl-t` - Run the current test file\n* `cmd-ctrl-r` - Run the test at the current line in test file\n* `cmd-ctrl-e` - Re-run the previous test (doesn't need to have the test file active)\n* `cmd-ctrl-x` - Show/hide the test panel\n\n## Features\n\n* Run all the tests in the project\n* Run the tests for current test file\n* Run single test at cursor\n* Run previous test\n* Configure the shell commands that run the tests\n* Supports Ruby managers, like `rvm` and `rbenv`\n* Supports bash and z-shell\n* Supports TestUnit, Rspec, and Cucumber\n\n## Contributing\n\nAny of the following are appreciated:\n\n* [Submit a Pull Request](https://github.com/moxley/atom-ruby-test/pulls)\n* [Submit an Issue](https://github.com/moxley/atom-ruby-test/issues)\n",
+  "readmeFilename": "README.md",
+  "_id": "ruby-test@0.9.1",
+  "dist": {
+    "shasum": "c7b1b1a6d644469929ed029722af9332c682d61c"
+  },
+  "_resolved": "/private/var/folders/bj/cb5xqysj4pxgpxf63yd2lh0h0000gn/T/d-114929-430-17um48a/package.tgz",
+  "_from": "/private/var/folders/bj/cb5xqysj4pxgpxf63yd2lh0h0000gn/T/d-114929-430-17um48a/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [
+      {
+        "name": "ansi-to-html",
+        "version": "0.2.1",
+        "path": "node_modules/ansi-to-html/lib/ansi_to_html.js"
+      },
+      {
+        "name": "entities",
+        "version": "1.1.1",
+        "path": "node_modules/ansi-to-html/node_modules/entities/index.js"
+      },
+      {
+        "name": "underscore-plus",
+        "version": "1.6.1",
+        "path": "node_modules/underscore-plus/lib/underscore-plus.js"
+      },
+      {
+        "name": "underscore",
+        "version": "1.6.0",
+        "path": "node_modules/underscore-plus/node_modules/underscore/underscore.js"
+      }
+    ],
+    "extensions": {
+      ".coffee": [
+        "lib/buffered-process.coffee",
+        "lib/resize-handle.coffee",
+        "lib/ruby-test-view.coffee",
+        "lib/ruby-test.coffee",
+        "lib/shell-runner.coffee",
+        "lib/source-info.coffee",
+        "lib/test-runner.coffee"
+      ],
+      ".js": [
+        "node_modules/ansi-to-html/gruntFile.js",
+        "node_modules/ansi-to-html/lib/ansi_to_html.js",
+        "node_modules/ansi-to-html/node_modules/entities/index.js",
+        "node_modules/ansi-to-html/node_modules/entities/lib/decode.js",
+        "node_modules/ansi-to-html/node_modules/entities/lib/decode_codepoint.js",
+        "node_modules/ansi-to-html/node_modules/entities/lib/encode.js",
+        "node_modules/underscore-plus/lib/underscore-plus.js",
+        "node_modules/underscore-plus/node_modules/underscore/underscore-min.js",
+        "node_modules/underscore-plus/node_modules/underscore/underscore.js"
+      ],
+      ".json": [
+        "node_modules/ansi-to-html/node_modules/entities/maps/decode.json",
+        "node_modules/ansi-to-html/node_modules/entities/maps/entities.json",
+        "node_modules/ansi-to-html/node_modules/entities/maps/legacy.json",
+        "node_modules/ansi-to-html/node_modules/entities/maps/xml.json",
+        "node_modules/ansi-to-html/node_modules/entities/package.json",
+        "node_modules/ansi-to-html/package.json",
+        "node_modules/underscore-plus/node_modules/underscore/package.json",
+        "node_modules/underscore-plus/package.json",
+        "package.json"
+      ]
+    },
+    "folders": [
+      {
+        "paths": [
+          "lib",
+          "",
+          "spec"
+        ],
+        "dependencies": {
+          "underscore-plus": "^1.0.6",
+          "ansi-to-html": "^0.2"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/ansi-to-html",
+          "node_modules/ansi-to-html/lib",
+          "node_modules/ansi-to-html/test"
+        ],
+        "dependencies": {
+          "entities": "^1.1.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/underscore-plus/lib",
+          "node_modules/underscore-plus"
+        ],
+        "dependencies": {
+          "underscore": "~1.6.0"
+        }
+      }
+    ]
+  }
+}

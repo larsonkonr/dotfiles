@@ -1,0 +1,36 @@
+'*':
+  'core':
+    'ignoredNames': [
+      '.git'
+      '.hg'
+      '.svn'
+      '.DS_Store'
+      'Thumbs.db'
+      'coverage'
+    ]
+    'disabledPackages': [
+      'vim-mode'
+    ]
+    'themes': [
+      'seti-ui'
+      'subtle'
+    ]
+  'exception-reporting':
+    'userId': '383233c4-08ef-b9fe-edbb-24b6a53f201b'
+  'welcome':
+    'showOnStartup': false
+  'metrics':
+    'userId': '71883572b9d77355c1ef4d58bdbeee5cfb90878c'
+  'tree-view':
+    'hideIgnoredNames': true
+  'seeing-is-believing':
+    'ruby-command': '/Users/larsonkonr/.rvm/bin/sib_ruby'
+  'autosave':
+    'enabled': true
+  'autocomplete':
+    'includeCompletionsFromAllBuffers': true
+  'editor':
+    'fontSize': 18
+    'invisibles': {}
+  'git-diff':
+    'showIconsInEditorGutter': true
