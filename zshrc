@@ -113,6 +113,7 @@ alias d='cd ~/.dotfiles'
 alias m='cd ~/MEGA'
 alias db='cd ~/Dropbox'
 alias blog='vim ~/MEGA/blog/'
+alias ud='cd ~/.dotfiles/ && ./push.sh && cd -'
 
 # fancy ls command
 # -l  long format
