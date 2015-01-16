@@ -99,7 +99,20 @@ alias gpl="git pull"
 alias gp="git push"
 alias gaa="git add ."
 alias gnb="git branch -b"
-
+alias be='bundle exec'
+alias v='vim'
+alias vi='vim'
+alias u='cd ..'
+alias review="git diff master"
+alias mastre='master'
+alias hpush='git push heroku'
+alias grc='git rebase --continue'
+alias gpr='git pull --rebase'
+alias gpf='git push -f'
+alias d='cd ~/.dotfiles'
+alias m='cd ~/MEGA'
+alias db='cd ~/Dropbox'
+alias blog='vim ~/MEGA/blog/'
 
 # fancy ls command
 # -l  long format
