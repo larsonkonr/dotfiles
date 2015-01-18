@@ -15,4 +15,4 @@ nnoremap <c-k> <c-w>k
 nnoremap <c-h> <c-w>h
 nnoremap <c-l> <c-w>l
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
-map <C-m> :NERDTreeToggle<CR>
+map <C-n> :NERDTreeToggle<CR>
