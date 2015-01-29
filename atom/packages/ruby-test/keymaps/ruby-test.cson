@@ -7,7 +7,7 @@
 
 # For more detailed documentation see
 # https://atom.io/docs/latest/advanced/keymaps
-'.workspace':
+'.atom-workspace':
   'cmd-ctrl-x': 'ruby-test:toggle'
   'cmd-ctrl-y': 'ruby-test:test-all'
   'cmd-ctrl-t': 'ruby-test:test-file'

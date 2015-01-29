@@ -23,6 +23,7 @@
     'userId': '71883572b9d77355c1ef4d58bdbeee5cfb90878c'
   'tree-view':
     'hideIgnoredNames': true
+    'hideVcsIgnoredFiles': true
   'seeing-is-believing':
     'ruby-command': '/Users/larsonkonr/.rvm/bin/sib_ruby'
   'autosave':

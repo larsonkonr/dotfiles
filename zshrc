@@ -51,7 +51,6 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH="/Users/larsonkonr/.rvm/gems/ruby-2.1.2/bin:/Users/larsonkonr/.rvm/gems/ruby-2.1.2@global/bin:/Users/larsonkonr/.rvm/rubies/ruby-2.1.2/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Users/larsonkonr/.rvm/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -112,7 +111,8 @@ alias gpf='git push -f'
 alias d='cd ~/.dotfiles'
 alias m='cd ~/MEGA'
 alias db='cd ~/Dropbox'
-alias blog='vim ~/MEGA/blog/'
+alias blog='cd ~/MEGA/Fromnovicetoprogrammer/'
+alias blog='cd ~/MEGA/Fromnovicetoprogrammer/'
 alias ud='cd ~/.dotfiles/ && ./push.sh && cd -'
 
 # fancy ls command
@@ -170,7 +170,7 @@ alias be="bundle exec"
     fi
 
     # next line
-    ps1="${ps1}\n\$ "
+    ps1="${ps1}\n☣ "
 
     # set prompt output
     PS1="$ps1"
