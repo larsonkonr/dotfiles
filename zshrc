@@ -114,6 +114,7 @@ alias db='cd ~/Dropbox'
 alias blog='cd ~/MEGA/Fromnovicetoprogrammer/'
 alias blogstart='cd ~/MEGA/Fromnovicetoprogrammer/ghost-0.5.2 && npm start'
 alias ud='cd ~/.dotfiles/ && ./push.sh && cd -'
+alias wip="git add . && git commit -m 'WIP'"
 
 # fancy ls command
 # -l  long format
