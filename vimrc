@@ -14,6 +14,7 @@ let mapleader = ","
 set hidden
 set history=1000
 set visualbell
+set autoread
 
 " ---------------------------------------------------------
 "		   EXTERNAL COPY / PASTE
