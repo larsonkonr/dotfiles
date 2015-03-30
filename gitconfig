@@ -4,6 +4,9 @@
   username = konrlarson
 [color]
   ui = true
+  diff = auto
+  status = auto
+  branch = auto
 [alias]
   shas = log --pretty=format:\"%H\"
   hist = log --pretty=format:\"%Cgreen%h%Creset %Cblue%ad%Creset %s%C(yellow)%d%Creset %Cblue[%an]%Creset\" --graph --date=short
@@ -17,3 +20,22 @@
 	required = true
 	clean = git media clean %f
 	smudge = git media smudge %f
+
+
+
+[core]
+  excludesfile = /Users/trey/.gitignore_global
+  editor = subl -w
+[github]
+  user = treyx
+[color]
+  ui = true
+  diff = auto
+  status = auto
+  branch = auto
+[diff]
+  tool = opendiff
+[push]
+  default = upstream
+[web]
+  browser = google-chrome
