@@ -1,7 +1,7 @@
 set nocompatible
 filetype plugin indent on
 imap jk <Esc>
-imap k <Esc>
+imap kj <Esc>
 syntax on
 set relativenumber
 set softtabstop=2
