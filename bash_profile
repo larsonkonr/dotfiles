@@ -72,7 +72,7 @@ alias be="bundle exec"
     ps1="${ps1}\n☣ "
 
     # set prompt output
-    PS1="$ps1"
+    PS1="$ps1☣"
   }
 
   PROMPT_COMMAND='build_mah_prompt'
