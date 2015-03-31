@@ -94,28 +94,52 @@ alias gb="git branch"
 alias ga="git add"
 alias gh="git hist"
 alias gcm="git commit -m"
-alias gpl="git pull"
+alias pull="git pull"
 alias gp="git push"
 alias gaa="git add ."
 alias gnb="git checkout -b"
-alias be='bundle exec'
-alias v='vim'
-alias vi='vim'
-alias u='cd ..'
 alias review="git diff master"
-alias mastre='master'
-alias hpush='git push heroku master'
 alias grc='git rebase --continue'
 alias gpr='git pull --rebase'
 alias gpf='git push -f'
+
+# Navigation  aliases
+alias ..='cd ..'
 alias d='cd ~/.dotfiles'
 alias m='cd ~/MEGA'
 alias db='cd ~/Dropbox'
 alias blog='cd ~/MEGA/Fromnovicetoprogrammer/'
 alias blogstart='cd ~/MEGA/Fromnovicetoprogrammer/ghost-0.5.2 && npm start'
 alias ud='cd ~/.dotfiles/ && ./push_dotfiles.sh && cd -'
-alias wip='git add . && ./push_wip.sh && cd -'
 alias dot='cd ~/.dotfiles'
+alias cdt="cd ~/turing"
+alias cdd="cd ~/Desktop"
+alias proj="cd ~/turing/proj"
+alias mod1="cd ~/turing/module1"
+alias mod2="cd ~/turing/module2"
+alias mod3="cd ~/turing/module3"
+alias mod32="cd ~/turing/module3.2"
+alias mod4="cd ~/turing/module4"
+
+# Rails aliases
+alias yolo="bundle exec rake db:drop db:create db:migrate db:seed"
+alias bert="bundle exec rake test"
+
+# Tmux aliases
+alias tn="tmux new -s"
+alias tl="tmux ls"
+alias tc="tmux a -t "
+alias tmuxc="vim ~/.tmux.conf"
+
+# Other aliases
+alias be='bundle exec'
+alias v='vim'
+alias vi='vim'
+alias mastre='master'
+alias hp='git push heroku master'
+alias wip='git add . && ./push_wip.sh && cd -'
+alias cov="open coverage/index.html"
+
 # fancy ls command
 # -l  long format
 # -F  / after dirs, * after exe, @ after symlink
@@ -171,10 +195,10 @@ alias be="bundle exec"
     fi
 
     # next line
-    ps1="${ps1}\n☣ "
+    ps1="${ps1}\n\$ "
 
     # set prompt output
-    PS1="$ps1"
+    PS1="$ps1\n 🌀"
   }
 
   PROMPT_COMMAND='build_mah_prompt'
